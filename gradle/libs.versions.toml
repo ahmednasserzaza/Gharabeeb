@@ -8,13 +8,14 @@ versionName = "1.0"
 activity-compose = "1.8.2"
 core-ktx = "1.12.0"
 lifecycle-runtime-ktx = "2.6.2"
-compose-bom = "2023.08.00"
+compose-bom = "2023.10.01"
 android-application-version = "8.2.0"
 kotlin-android-version = "1.9.0"
 hilt-version = "2.49"
-coroutine--version = "1.7.3"
-hilt-compose-navigation-version = "1.0.0"
+coroutine-version = "1.7.3"
+hilt-compose-navigation-version = "1.1.0"
 ksp-version = "1.9.20-1.0.14"
+splash-screen-version = "1.0.1"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
@@ -32,7 +33,8 @@ hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt-
 hilt-ksp = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt-version" }
 hilt-compose-navigation = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-compose-navigation-version" }
 
-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutine--version" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutine-version" }
+splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "splash-screen-version" }
 
 
 [bundles]

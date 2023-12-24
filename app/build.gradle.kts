@@ -62,5 +62,6 @@ dependencies {
     implementation(libs.hilt.compose.navigation)
     implementation(libs.coroutines.android)
     ksp(libs.hilt.ksp)
+    implementation(libs.splash.screen)
 
 }
